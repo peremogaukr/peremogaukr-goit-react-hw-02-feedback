@@ -1,0 +1,26 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    font-family: Arial, Helvetica, FreeSans, 'Liberation Sans', 'Nimbus Sans L',
+        sans-serif;
+    font-size: 1.6em;
+    font-weight: 500;
+    color: #000000;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    user-select: none;
+    padding: 4em 0.3em;
+    outline: none;
+    border: none;
+    background: bisque;
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+    cursor: pointer;
+}
